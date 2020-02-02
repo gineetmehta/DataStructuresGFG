@@ -1,9 +1,9 @@
 public class Main {
 
-    public static void main(String[] args) {
-	    Array arr = new Array(10);
-	    arr.printArray();
-	    arr.rotateLeft(3);
-	    arr.printArray();
-    }
+	public static void main(String[] args) {
+		Array arr = new Array(7);
+		Helpers.printArray(arr.getArray());
+		arr.rotateLeftReversal(2);
+		Helpers.printArray(arr.getArray());
+	}
 }
